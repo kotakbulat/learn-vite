@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Optional: Add some base styling */
+body {
+  @apply bg-gray-100 text-gray-800 dark:bg-gray-900 dark:text-gray-200 transition-colors duration-300;
+  font-family: 'Inter', sans-serif; /* Add a nice font if you like */
+}
+
+/* Style active NavLink */
+.active-link {
+ @apply font-bold text-indigo-600 dark:text-indigo-400;
+}
